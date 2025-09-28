@@ -1,0 +1,61 @@
+
+#start
+{
+    background-color:green;
+
+}
+
+#pause
+{
+    background-color:red;
+
+}
+.btn{
+     background-color:blue;
+    color:white;
+    font-size:1.2rem;
+}
+.btn:hover
+{
+    border:0.2rem solid pink;
+}
+
+.container
+{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+
+@media screen and (max-width:600px)
+{
+    #btn-container{
+    flex-direction:column;
+    }
+}
+@media screen and (min-width:600px)
+{
+   #btn-container{
+    flex-direction:row;
+    }
+}
+
+#btn-container
+{
+    display:flex;
+    gap:1rem;
+    align-items:center;
+    justify-content:center;
+    width:100%;
+}
+
+.btn{
+    border-radius:0.5rem;
+    height:2rem;
+    width:5rem;
+}
+h1
+{
+    font-size:4rem;
+}
